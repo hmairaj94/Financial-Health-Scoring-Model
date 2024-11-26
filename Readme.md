@@ -43,3 +43,7 @@ The Streamlit app will open in your browser (typically at `http://localhost:8501
 1. Open the Streamlit app in your browser.
 2. Enter the financial data (income, savings, expenses, etc.) in the input form.
 3. Click the "Calculate Financial Score" button to receive your financial score and see the recommendations and visualizations.
+![Screenshot (72)](https://github.com/user-attachments/assets/82c8c09d-efd0-449f-b960-9b3a3a82f86d)
+![Screenshot (74)](https://github.com/user-attachments/assets/da8a230b-be6e-4be7-a249-7db528e00007)
+
+
