@@ -32,7 +32,7 @@ The API will be available at `http://127.0.0.1:5000`.
 
 The Streamlit app is located in the `/streamlit` folder. Follow these steps to run the app:
 
-### 1. Navigate to the `/streamlit` Folder
+#### 1. Navigate to the `/streamlit` Folder
 
 Open a terminal or command prompt and change the directory to `/streamlit`:
 
@@ -41,9 +41,8 @@ cd /streamlit
 
 Once the Flask API is running, start the Streamlit app by running:
 
-```bash
 streamlit run app.py
-```
+
 
 The Streamlit app will open in your browser (typically at `http://localhost:8501`).
 
