@@ -27,7 +27,6 @@ expenses_ratio = st.number_input("Expenses Ratio", min_value=0.0, max_value=1.0,
 loan_ratio = st.number_input("Loan Ratio", min_value=0.0, max_value=1.0, value=0.05)
 credit_card_usage = st.number_input("Credit Card Usage", min_value=0.0, max_value=1.0, value=0.2)
 
-# Create a DataFrame from the input
 input_data = {
     'Family ID': [family_id],
     'Savings': [savings],
@@ -54,11 +53,7 @@ if st.button('Calculate Financial Score'):
 
         # Make the POST request to Flask API
         response = requests.post(FLASK_API_URL, json=input_data)
-        
-        # Debugging: print the response
         st.write("Response from Flask API:", response.json())
-
-        # Check if the response was successful
         if response.status_code == 200:
             result = response.json()
             financial_score = result['financial_score']
@@ -92,3 +87,4 @@ if st.button('Calculate Financial Score'):
             st.write("Error: Unable to get a response from the Flask API.")
     except Exception as e:
         st.write(f"Error: {e}")
+        
