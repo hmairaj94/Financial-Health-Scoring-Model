@@ -1,0 +1,6 @@
+Flask
+streamlit
+pandas
+requests
+matplotlib
+seaborn
