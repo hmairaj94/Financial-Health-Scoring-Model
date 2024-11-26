@@ -38,6 +38,7 @@ Open a terminal or command prompt and change the directory to `/streamlit`:
 
 ```bash
 cd /streamlit
+```
 
 Once the Flask API is running, start the Streamlit app by running:
 
